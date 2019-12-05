@@ -1,0 +1,35 @@
+* {
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(117, 117, 117);
+    border-radius: 15px;
+}
+  
+li {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+  
+li a {
+    display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all .3s ease-in;
+    background: rgb(117, 117, 117)
+}
+  
+li a:hover {
+    background-color: rgb(70, 4, 88);
+    height: 100%;
+}
+
+

@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    min-height: 100%;
+}
+
+#p1 {
+    float: left;
+    width: 50%;
+}
+
+.carousel {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.carousel img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(0, 0, 0);
+}
+
+@-webkit-keyframes xfade {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity:1;
+    }
+    24% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes xfade {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity:1;
+    }
+    24% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.carousel img:nth-child(5) {
+    -webkit-animation: xfade 25s 0s infinite;
+    animation: xfade 25s 0s infinite;
+}
+.carousel img:nth-child(4) {
+    -webkit-animation: xfade 25s 5s infinite;
+    animation: xfade 25s 5s infinite;
+}
+.carousel img:nth-child(3) {
+    -webkit-animation: xfade 25s 10s infinite;
+    animation: xfade 25s 10s infinite;
+}
+.carousel img:nth-child(2) {
+    -webkit-animation: xfade 25s 15s infinite;
+    animation: xfade 25s 15s infinite;
+}
+.carousel img:nth-child(1) {
+    -webkit-animation: xfade 25s 20s infinite;
+    animation: xfade 25s 20s infinite;
+}
+
+
+#p2 {
+    float: right;
+    width: 50%;
+}
